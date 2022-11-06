@@ -1,0 +1,8 @@
+select, input[type="text"]{
+    box-sizing:border-box;
+  }
+  
+  label {
+    min-width: 60px;
+    display: inline-block;
+}
