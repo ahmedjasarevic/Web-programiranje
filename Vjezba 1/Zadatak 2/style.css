@@ -1,10 +1,31 @@
-table, th, td {
-    border: 2px solid black;
-    border-collapse: collapse;
+.content-table{
+  border-collapse: collapse;
+  margin: 25px 0;
+  min-width: 85%;
 
-  }
+}
+.content-table thead tr{
+  background-color: gray;
+  color:black;
+  
+}
 
-  thead{
-background-color: white;
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
 
-  }
+.content-table tr, .content-table td{
+border-bottom: 2px solid black;
+border-left:2px solid black; 
+border-right:2px solid black; 
+border-top:2px solid black; 
+
+
+}
+
+.content-table td {
+  text-align: center;
+}
+
+  

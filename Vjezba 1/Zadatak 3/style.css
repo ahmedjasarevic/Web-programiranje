@@ -3,6 +3,6 @@ select, input[type="text"]{
   }
   
   label {
-    min-width: 60px;
+    min-width: 90px;
     display: inline-block;
 }

@@ -5,13 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="">
-        <label >Unos privatnih podataka</label> <br>
-            <input type="range" name="amountRange" min="0" max="5" value="0" oninput="this.form.amountInput.value=this.value" />
-            <input type="number" name="amountInput" min="0" max="5" value="0" oninput="this.form.amountRange.value=this.value" />
-            <label >min</label>
+    <form>
+        <h1>Unos privatnih podataka</h1> <br>
+        <input type="range" min="2" max="5" value="5" class="slider-square" oninput="rangeValue.innerText = this.value">       
+          <p id="rangeValue"> Korak  od 5</p>
         </form>
+        <form>
+            <br>
+            <label >Datum rođenja</label> 
+            <input type="date" id="send" oninput="result.value = send.value">
+            <br><br>
+        </form>
+        <form>
+            <label >Email adresa</label> 
+            <input type="text" >
+            <br><br>
+            <input type="submit" value="&lt;&lt; Nazad">
+            <input type="submit" value="Dalje &gt;&gt;">
+        </form>
+       
 </body>
 </html>
