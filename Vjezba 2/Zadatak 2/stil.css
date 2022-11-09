@@ -41,6 +41,7 @@ body{
     background-color : #9c9;
     color: black;
     margin-top: -18px;
+    height: 65%;
     padding-left: 1%;
   }
 
@@ -55,9 +56,12 @@ body{
 
   
   #podnozje{
+    margin-top: -20px;
     float : left;
     width : 97.5%;
     padding : 1px 10px;
+    height: 7%;
+    font-size: 11pt;
     background-color : #cc9;
     color: black;
 
