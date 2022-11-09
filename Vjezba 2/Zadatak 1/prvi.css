@@ -1,0 +1,55 @@
+h1{
+    text-align: right;
+    color:red;
+    font-size:50px;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    text-align: right;
+    font-size: 20px;
+    position: fixed;
+    top: 30px;
+    right: 20px;
+}
+.citat
+{
+    margin: auto;
+    width: 35%;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: gray;
+}
+
+.moja_lista{
+list-style-image: url('sqpurple.gif');
+
+}
+
+div#link_nazad{
+    color:red;
+    border: 1px solid black;
+    background-color: white;
+    width: 6%;
+    background-image: url('listArrow.gif');
+  background-position: left top;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  height: 30px;
+  position: fixed;
+    top: 20px;
+    left: 20px;
+  
+}
+  
+div#link_nazad a:link{
+    color:red;
+    text-decoration: none; 
+    font-size: 25px;
+    
+}
+div#link_nazad a:visited{
+    color:red;
+    text-decoration: none; 
+    font-size: 25px;
+}

@@ -10,8 +10,10 @@
 <body>
     <form>
         <h1>Unos privatnih podataka</h1> <br>
-        <input type="range" min="2" max="5" value="5" class="slider-square" oninput="rangeValue.innerText = this.value">       
-          <p id="rangeValue"> Korak  od 5</p>
+        <div class = "progress">
+        <progress id="progress" value="2" max="5" > 2 </progress>
+    </div>
+        <label for="progress">Korak 2 od 5</label>
         </form>
         <form>
             <br>
@@ -25,7 +27,7 @@
             <br><br>
             <input type="submit" value="&lt;&lt; Nazad">
             <input type="submit" value="Dalje &gt;&gt;">
+            
         </form>
-       
 </body>
 </html>

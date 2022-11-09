@@ -1,14 +1,4 @@
-
-input[type="range"] { 
-    margin: auto;
-    -webkit-appearance: none;
-    position: relative;
-    overflow: hidden;
-    height: 40px;
-    width: 200px;
-    cursor: pointer;
-    border-radius: 0; /* iOS */
-}
-::-webkit-slider-runnable-track {
-    background: #ddd;
+.body{
+    padding: 0;
+    margin: 0;
 }
