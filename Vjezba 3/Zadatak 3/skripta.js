@@ -12,7 +12,8 @@ function promjeni(){
        data = data.replace(rezultat[i],pretvori(rezultat[i]));
     }
     console.log(data);
-    alert(data);
+    document.getElementById('tekst').value = data;
+
 
 }
 
