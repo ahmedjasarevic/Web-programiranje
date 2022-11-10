@@ -39,6 +39,7 @@ function pretvori(num){
         cifra = num.toString()[0];
         cifra2 = num.toString()[1];
         cifra3 = num.toString()[2];
+        console.log(cifra);
         pretvorenitekst += stotice[cifra-1];
         if(cifra2 == 0){
             pretvorenitekst += "";
@@ -52,6 +53,7 @@ function pretvori(num){
         } else{
             pretvorenitekst += jedinice[cifra3 - 1];
         }
+    
    
     
     }
