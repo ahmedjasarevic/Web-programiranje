@@ -6,10 +6,14 @@ var special = ["jedanaest","dvanaest","trinaest","cetrnaest","petnaest","sestnae
 function promjeni(){
 
     var data = document.getElementById("tekst").value;
-    var num = data.replace( /^\D+/g, '');
-    console.log(num);
-    console.log(pretvori(num));
-    alert(pretvori(num));
+    var broj = /\d+/g;
+    var rezultat = data.match(broj);
+    for(var i in rezultat){
+       data = data.replace(rezultat[i],pretvori(rezultat[i]));
+    }
+    console.log(data);
+    alert(data);
+
 }
 
 
