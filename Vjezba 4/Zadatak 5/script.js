@@ -1,13 +1,17 @@
 function promjena(){
 var data = document.getElementById("unos").value;
-var regex = /^(\S*).*\[(.*)\]\s"(\S*)\s(\S*)\s([^"]*)"\s(\S*)\s(\S*)\s"([^"]*)"\s"([^"]*)"$/;
+var regex = /(?<src>\d+\.\d+\.\d+\.\d+).+\]\s\"(?<http_method>\w+)\s(?<uri_path>\S+)\s(?<uri_query>\S+)\"\s(?<status>\d+)\s(?<bytes>[\d-]+)/gm;
 var zamjena = data.match(regex);
-
-document.getElementById('unos').value = zamjena[2] + " " + zamjena[4] + " " + zamjena[6];
-
+provjeri();
 
 
 }
 
 
 
+function provjeri(){
+    if(zamjena.match(/\b404\b/g)){
+       return console.log(zamjena);
+    }
+
+}
