@@ -9,21 +9,27 @@
     <title>Document</title>
 </head>
 <body>
-        <p  id = "naslov" onclick="izPlusauMinus()">+ Prva godina</p>
-        <div id="prvagodina">
-        <ul id="lista">
-            <li>IM1</li>
-            <li>IM2</li>
-            <li>OE</li>
-        </ul>
-    </div>
-    <p  id = "naslov" onclick="izPlusauMinus()">+ Druga godina</p>
-    <div id="drugagodina">
-    <ul id="lista2">
-        <li>IM1</li>
-        <li>IM2</li>
-        <li>OE</li>
-    </ul>
-</div>
+    <ul id="myUL">
+        <li><span class="caret">Beverages</span>
+          <ul class="nested">
+            <li>Water</li>
+            <li>Coffee</li>
+            <li><span class="caret">Tea</span>
+              <ul class="nested">
+                <li>Black Tea</li>
+                <li>White Tea</li>
+                <li><span class="caret">Green Tea</span>
+                  <ul class="nested">
+                    <li>Sencha</li>
+                    <li>Gyokuro</li>
+                    <li>Matcha</li>
+                    <li>Pi Lo Chun</li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
 </body>
 </html>
