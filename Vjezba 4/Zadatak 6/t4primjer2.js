@@ -28,8 +28,12 @@ if (sel!=="Druga") return false;
 return true;
 }
 
+
+
 document.getElementById("mfid").addEventListener( "submit",
 provjeriFormu, false );
 document.getElementById("stela").addEventListener( "click", function(ev) {
 document.forms.mojaforma.submit();
 }, false);
+
+
