@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+
+<script type="text/javascript">
+    function obrnutiString(str) {
+    var obrnuti = '';
+    for (var i = str.length - 1; i >= 0; i--){
+        obrnuti = obrnuti + str[i];
+}
+return obrnuti;
+}
+
+    var odgovor = prompt("Kako se zoves?", "Imenom i prezimenom(default)");
+    if (odgovor!=null && odgovor!="")
+    {
+        var r=confirm("Pritisnite OK da prikazete ime u alertboxu a Cancel za prikaz direktno na stranici");
+        if (r==true)  // ili if(r)
+              alert(odgovor);
+        else 
+              document.write(odgovor);
+    }
+
+    var odgovor = prompt("Unesi tekst");
+    if (odgovor!=null && odgovor!="")
+    {
+        var r=confirm("Pritisnite OK da prikazete ime u alertboxu a Cancel za prikaz direktno na stranici");
+        if (r==true)  // ili if(r)
+              alert(obrnutiString(odgovor));
+        else 
+              document.write(odgovor);
+    }
+
+  </script>
+  
+</html>
