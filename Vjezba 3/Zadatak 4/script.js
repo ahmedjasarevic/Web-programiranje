@@ -28,8 +28,11 @@ function jednacina(rezultat){
       // Pocetak crtanja na intervalu [-5, 5]
       // Funkija y = x(x-2.5)
       for(var x = -5; x < 5; x += korak) {
-          var y = x * x - 2.5 * x // x^2 - 2.5x = x(x-2.5) pa su nule u x=0 i x=2.5
-          
+        console.log(rezultat);
+          var y = rezultat[0] * math.pow(x,rezultat[1]) + (rezultat[2] * x) + rezultat[3] * 1.0;// x^2 - 2.5x = x(x-2.5) pa su nule u x=0 i x=2.5
+          console.log(math.pow(x,rezultat[1]));
+          console.log(x);
+          console.log(y);
           // X-osa
           // Skaliranje: za x = -5, x' = 0
           // Skaliranje: za x = 5, x' = 200
