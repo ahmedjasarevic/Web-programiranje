@@ -1,0 +1,19 @@
+{
+  "args": {
+    "korisnik": "neko"
+  }, 
+  "data": "", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate, br", 
+    "Host": "httpbin.org", 
+    "Postman-Token": "6a64eecc-c0d2-4f4f-a11e-4491543f334b", 
+    "User-Agent": "PostmanRuntime/7.29.2", 
+    "X-Amzn-Trace-Id": "Root=1-63789e65-6c3d5ccb69312a2251bf8d73"
+  }, 
+  "json": null, 
+  "origin": "109.175.102.23", 
+  "url": "http://httpbin.org/delete?korisnik=neko"
+}
