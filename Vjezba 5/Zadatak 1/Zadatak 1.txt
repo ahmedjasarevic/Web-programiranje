@@ -1,0 +1,38 @@
+a) Kojom HTTP metodom se šalje zahtijev? Metodom GET
+b) Koliko je vremena trebalo da dođe prvi, a koliko za posljednji odgovor od servera? Prvi: 7ms Zadnji: 19ms
+c) Snimite jedan od zahtjeva i odgovora za dobavljanje slike! Koja je veličina tijela
+odgovora? Nabrojite koji se sve headeri nalaze u zahtjevu, a koji u odgovoru i
+opišite njihovo značenje na konkretnom primjeru!
+Response Headers:
+
+accept-ranges: bytes
+cache-control: public, max-age=31536000, immutable
+content-length: 41891
+content-type: image/jpeg
+date: Fri, 18 Nov 2022 18:30:42 GMT
+etag: "f7787faab8e9b339865bb82772737ea0"
+last-modified: Mon, 10 Oct 2022 14:15:34 GMT
+strict-transport-security: max-age=15552000; includeSubDomains; preload
+vary: Origin, Access-Control-Request-Headers, Access-Control-Request-Method
+x-amz-request-id: tx00000000000016c3772df-006377cf52-5c8c654c-fra1b
+x-rgw-object-type: Normal
+
+Request Headers:
+:authority: etf-images.fra1.digitaloceanspaces.com
+:method: GET
+:path: /e00743b392e5db4e479bbcfac65c0ff2.jpg
+:scheme: https
+accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+accept-encoding: gzip, deflate, br
+accept-language: en-US,en;q=0.9
+referer: https://etf.unsa.ba/
+sec-ch-ua: "Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+sec-fetch-dest: image
+sec-fetch-mode: no-cors
+sec-fetch-site: cross-site
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36
+d) Pronađite header u kojem piše koji web preglednik koristite!
+Request Header: sec-ch-ua: "Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"
+e) Koliko je ukupno zahtjeva upućeno? 48

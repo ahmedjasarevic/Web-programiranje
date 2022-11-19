@@ -1,0 +1,22 @@
+{
+  "args": {}, 
+  "data": "{\r\n    \"ime\" : \"ahmed\",\r\n    \"prezime\" : \"jasarevic\"\r\n}", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Accept-Encoding": "gzip, deflate, br", 
+    "Content-Length": "55", 
+    "Content-Type": "application/json", 
+    "Host": "httpbin.org", 
+    "Postman-Token": "8ee2efc8-5b3f-480a-82c3-8f06964b347c", 
+    "User-Agent": "PostmanRuntime/7.29.2", 
+    "X-Amzn-Trace-Id": "Root=1-6377e091-51578736555530f244858eb1"
+  }, 
+  "json": {
+    "ime": "ahmed", 
+    "prezime": "jasarevic"
+  }, 
+  "origin": "109.175.102.215", 
+  "url": "http://httpbin.org/post"
+}

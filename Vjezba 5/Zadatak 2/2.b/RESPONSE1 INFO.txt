@@ -1,0 +1,14 @@
+(a) header-e - pronađite šta svaki od njih znači
+Date: Fri, 18 Nov 2022 19:38:00 GMT
+Content-Type: application/json
+Content-Length: 575
+Connection: keep-alive
+Server: gunicorn/19.9.0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+(b) status code
+200 OK
+(c) vrijeme
+485ms
+(d) koji je tip sadržaja odgovora
+json
