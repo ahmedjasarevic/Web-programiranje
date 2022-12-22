@@ -16,4 +16,4 @@ const lines = fs.readFileSync("imenik.txt").toString().split("\r\n");
     }
 
 
-fs.writeFileSync("users.json",JSON.stringify(korisnici));
+fs.writeFileSync("users.json",JSON.stringify(korisnici, null, 4));
