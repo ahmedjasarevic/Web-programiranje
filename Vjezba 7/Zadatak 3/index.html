@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <ul class="tabs">
+        <li class="tab" data-tab-target="#tab1" data-tab-url="tab1.html">Tab 1</li>
+        <li class="tab" data-tab-target="#tab2" data-tab-url="tab2.html">Tab 2</li>
+        <li class="tab" data-tab-target="#tab3" data-tab-url="tab3.html">Tab 3</li>
+      </ul>
+      
+<div id="tab1" class="tab-content"></div>
+<div id="tab2" class="tab-content"></div>
+<div id="tab3" class="tab-content"></div>
+
+<script>
+$(document).ready(function() {
+  $('.tab').click(function() {
+    const tab = this;
+    $('.tab').removeClass('active');
+    $(tab).addClass('active');
+    $('.tab-content').removeClass('active');
+    $($(tab).data('tab-target')).addClass('active');
+    $.ajax({
+      url: $(tab).data('tab-url'),
+      success: function(response) {
+        $($(tab).data('tab-target')).html(response);
+      }
+    });
+  });
+});
+
+
+</script>
+</body>
+</html>
